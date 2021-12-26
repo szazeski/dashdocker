@@ -1,4 +1,4 @@
-FROM alpine:3
+FROM golang:1.17
 
 WORKDIR /go/src/github.com/szazeski/dashdocker
 COPY go.mod ./
